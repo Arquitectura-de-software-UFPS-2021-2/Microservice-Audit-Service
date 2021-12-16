@@ -1,42 +1,40 @@
-## Spring Boot Api auditservice
+## Servicio de auditoría de Spring Boot Api
 
-Rest Full Api para crear usuarios y modelos. 
+Rest Full Api para crear usuarios y modelos.
  
-* Get All the user
-* Post a new user
-* Update users
-* Delete a user by id 
-* Find user by properties 
+* Obtener todo el usuario
+* Publicar un nuevo usuario
+* Actualizar usuarios
+* Eliminar un usuario por id
+* Buscar usuario por propiedades
 
-### Iniciar la aplicación 
+### Iniciar la aplicación
 Asegurarse de tener
-Java 11 + 
+Java 11 +
 
-### Agregar la configuración de la base en applicacitons.properties 
-This step is necessary
+### Agregar la configuración de la base en application.properties
+Este paso es necesario
 
 /src/main/resources/application.properties
 
-Actualiza las siguientes propiedades 
+Actualiza las siguientes propiedades
 
-* url 
-* username 
-* password
+* url
+* nombre de usuario
+* contraseña
 
 #### Ejecutalo
 usar mvn para ejecutar
 
-Windows example:
+Ejemplo de Windows:
 
-    mvnw.cmd spring-boot:run
+    mvnw.cmd spring-boot: ejecutar
 
-Unix based:
+Basado en Unix:
 
-    mvwn spring-boot:run 
+    mvwn spring-boot: ejecutar
 
-Entrar a localhost:8080
-
-
+Entrar a localhost: 8080
 
 
 
