@@ -1,6 +1,15 @@
-## Servicio de auditoría API REST Spring Boot ![alt text](https://cleventy.com/wp-content/uploads/2020/05/spring-boot-600x300.png) 
+## Servicio de auditoría API REST Spring Boot ![alt text](https://rubensa.files.wordpress.com/2021/05/spring-boot-logo.png) 
 
-### Pasos para la configuración
+## Instalación  💻
+Lo Primero que debemos hacer es abrir la consola (Terminal) de nuestro equipo, y procedemos a Clonar el Proyecto, para ello ingresaremos el siguiente comando: 
+  ```
+  git clone https://github.com/Arquitectura-de-software-UFPS-2021-2/Microservice-Audit-Service.git
+  ```
+## Pre-Requisito
+- Tener instalado un IDE, ya sea Netbeans, Eclipse o Visual Studio.
+- Tener instalado el gestor de base de datos MySql 
+
+## Pasos para la configuración
 
 
 Rest Full Api para crear usuarios y modelos.
@@ -11,18 +20,33 @@ Rest Full Api para crear usuarios y modelos.
 * Eliminar un usuario por id
 * Buscar usuario por propiedades
 
-### Iniciar la aplicación
+## Iniciar la aplicación
 Asegurarse de tener
 Spring Tools Suite 4 + Java 11 
 
-#### Ejecutalo
+## Ejecutalo
 
 Entrar a localhost:8080/id/usuarios
 
-# Getting Started
+## Explore las API de descanso
+```
+GET /api/usuarios
 
-### Reference Documentation
-For further reference, please consider the following sections:
+POST /api/usuarios
+
+PUT /api/usuarios/id
+
+DELETE /api/usuarios/id
+```
+
+## Pruebas
+
+- Tener instalado un servidor local o tener instalado un programa que nos permita realizar pruebas API como PostMan.  ![alt text](https://iconape.com/wp-content/files/om/349867/png/postman-logo.png) 
+
+# Empezando
+
+### Documentación de referencia
+Para mayor referencia, considere las siguientes secciones:
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.6.1/maven-plugin/reference/html/)
@@ -31,8 +55,8 @@ For further reference, please consider the following sections:
 * [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.6.1/reference/htmlsingle/#boot-features-jpa-and-spring-data)
 * [Spring Web](https://docs.spring.io/spring-boot/docs/2.6.1/reference/htmlsingle/#boot-features-developing-web-applications)
 
-### Guides
-The following guides illustrate how to use some features concretely:
+### Guías
+Las siguientes guías ilustran cómo utilizar algunas funciones de forma concreta:
 
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 * [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
