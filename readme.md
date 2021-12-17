@@ -10,11 +10,11 @@ Rest Full Api para crear usuarios y modelos.
 
 ### Iniciar la aplicación
 Asegurarse de tener
-Java 11 +
+Spring Tools Suite 4 + Java 11 
 
 #### Ejecutalo
 
-Entrar a localhost: 8080
+Entrar a localhost:8080/id/usuarios
 
 # Getting Started
 
