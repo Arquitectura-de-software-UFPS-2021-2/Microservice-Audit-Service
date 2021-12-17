@@ -1,4 +1,7 @@
-## Servicio de auditoría API REST Spring Boot
+## Servicio de auditoría API REST Spring Boot ![alt text](https://cleventy.com/wp-content/uploads/2020/05/spring-boot-600x300.png) 
+
+### Pasos para la configuración
+
 
 Rest Full Api para crear usuarios y modelos.
  
