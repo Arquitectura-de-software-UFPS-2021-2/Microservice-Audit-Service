@@ -12,7 +12,7 @@ Lo Primero que debemos hacer es abrir la consola (Terminal) de nuestro equipo, y
 ## Pasos para la configuración
 
 
-Rest Full Api para crear usuarios y modelos.
+Rest Full Api para usuarios y modulos.
  
 * Obtener todo el usuario
 * Publicar un nuevo usuario
@@ -25,8 +25,9 @@ Asegurarse de tener
 Spring Tools Suite 4 + Java 11 
 
 ## Ejecutalo
-
+```
 Entrar a localhost:8080/id/usuarios
+```
 
 ## Explore las API de descanso
 ```
@@ -41,9 +42,25 @@ DELETE /api/usuarios/id
 
 ## Pruebas
 
-- Tener instalado un servidor local o tener instalado un programa que nos permita realizar pruebas API como PostMan.  ![alt text](https://iconape.com/wp-content/files/om/349867/png/postman-logo.png) 
+- Tener instalado un servidor local o tener instalado un programa que nos permita realizar pruebas API como  ![alt text](https://iconape.com/wp-content/files/om/349867/png/postman-logo.png) 
 
-# Empezando
+- POST Crear usuario 
+
+# ![alt text](https://i.ibb.co/5rJLjj2/PRUEBA-POST.png)
+
+- GET mostrar usuario por id
+
+# ![alt text](https://i.ibb.co/NyvzS9j/GET-POSTMAN-usuario-por-id.png)
+
+- GET Mostrar los usuarios de la BD
+
+# ![alt text](https://i.ibb.co/YpF3rr6/GET-POSTMAN.png)
+
+- BD MySQL 
+
+# ![alt_text](https://i.ibb.co/CtfWG9V/BD-MYSQL.png)
+
+# Empezando 
 
 ### Documentación de referencia
 Para mayor referencia, considere las siguientes secciones:
